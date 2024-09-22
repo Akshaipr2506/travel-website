@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family:"Playfair Display", serif;
+}
+:root{
+    --x:rgb(240, 134, 58);
+}
+#main{
+    background-image: url("https://wallpapercave.com/wp/wp2481186.jpg");
+    width: 100%;
+    
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+#logo{
+    margin-left: 30px;
+    width: 150px;
+    height: 120px;
+}
+ul li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: rgb(240, 134, 58);;
+}
+#BUTTON{
+    background-color: var(--x);
+    color: white;
+    border-radius: 20px;
+}
+#BUTTON:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+li i{
+    color: rgb(240, 134, 58);
+}
+#backg{
+    background-color: rgba(1, 1, 1, 0.051);
+    width: 100%;
+    /* height: 100vh; */
+}
+
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+    }
+}
+#welcome{
+    margin-top: 22%;
+    margin-left: 5%;
+    color: black;
+}
+#welcome h3{
+    font-size: 50px;
+    color: white;
+}
+#welcome h1{
+    font-size: 100px;
+    color: white;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 50px;
+    }
+}
+#welcome button{
+    border-color: white;
+    color: white;
+    background-color: none;
+}
+#about-us h1,
+#about-us h3{
+    color: black;
+}
+#viewBtn2,
+#interbtn,
+#sub-btn{
+    background-color: var(--x);
+    color: white;
+    border-radius: 20px
+}
+#viewBtn2:hover,
+#interbtn:hover,
+#sub-btn:hover{
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+
+/* package heading */
+.pack {
+    text-align: center; 
+    font-weight: bold;  
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+
+/* cards */
+
+.custom-card {
+    background-color: white; 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+}
+
+
+.custom-card .card-title,
+.custom-card .card-text {
+    color: black; 
+}
+
+
+.custom-card .btn-primary {
+    background-color: rgb(240, 134, 58); 
+    border-color: rgb(240, 134, 58); 
+    color: white; 
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.custom-card .btn-primary:hover {
+    background-color: rgb(220, 120, 50); 
+    border-color: rgb(220, 120, 50);
+}
+
+
+.custom-card .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 0.25rem 0.25rem 0 0; 
+}
+
+
+.card-body {
+    padding: 20px;
+}
+
+
+.custom-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.custom-card .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.img-fluid {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+.container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* footer */
+.footer a, .text-dark {
+    text-decoration: none;  
+    font-weight: bold;      
+  }
+  .footer a:hover, .text-dark:hover {
+    text-decoration: none;  
+    font-weight: bold;      
+  }  
+
+  
+  .social-icon {
+    color: black;             
+    transition: transform 0.3s ease; 
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2); 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .text-md-center {
+      text-align: center; 
+    }
+  }
+
+  
+#subsec input {
+    border: 2px solid black; 
+    padding: 0.5rem;         
+    border-radius: 4px;      
+  }
+  
+  
+  #subsec input:focus{
+    outline: none;
+    border-color: rgb(240, 134, 58); 
+    box-shadow: 0 0 5px rgba(240, 134, 58, 0.5); 
+  }
+  
+  
